@@ -4,6 +4,7 @@ Changelog
 2.6.0 (unreleased)
 ------------------
 
+- #2678 Add validate function in API
 - #2677 Fix permission for Uncertainty field
 - #2675 Fix services are not deselected on template removal in sample add form
 - #2673 Trigger recalculation of dependants if uncertainty changes
