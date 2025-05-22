@@ -4,6 +4,7 @@ Changelog
 2.7.0 (unreleased)
 ------------------
 
+- #2731 Fix ReactJS complains about duplicate keys
 - #2730 Update D3js 3 -> 7
 - #2728 Update ReactJS 18 -> 19
 - #2727 Update TinyMCE 5 -> 7
