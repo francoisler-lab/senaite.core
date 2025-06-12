@@ -45,4 +45,5 @@ def client_searchable_text(instance):
     tokens = filter(None, set(tokens))
 
     # return a single unicode string with all the concatenated tokens
-    return u" ".join(map(api.safe_unicode, tokens))
+    return u" ".join(map(lambda x: api.safe_unicode(str(x)), tokens))
+
